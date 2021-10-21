@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+Modifique un mínimo de tres variables dentro de :root{} 
+Para seleccionarlas, revise: https://getbootstrap.com/docs/5.1/customize/css-variables/
+*/
+
+:root {
+    --bs-body-font-family: "PT Serif", serif;
+    --bs-body-font-size: 0.9rem;
+    --bs-body-font-weight: 400;
+}
+
+h1{
+    font-weight: 700;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 600;
+}
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("img/fondo-con-imagen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
