@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*
-Modifique un mínimo de tres variables dentro de :root{} 
-Para seleccionarlas, revise: https://getbootstrap.com/docs/5.1/customize/css-variables/
-*/
-
 :root {
     --bs-body-font-family: "PT Serif", serif;
     --bs-body-font-size: 0.9rem;
